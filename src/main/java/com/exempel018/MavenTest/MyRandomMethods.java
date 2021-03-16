@@ -5,32 +5,35 @@ import java.util.Random;
 public class MyRandomMethods {
 	Random random = new Random();
 	
-	MyRandomMethods() {
-		randomBetween1and10();
-		randomBetween11and20();
-		randomBetween21and30();
-		randomBetween31and40();
-		randomBetween41and50();
+	public int randomBetween1and10() {
+		int result = 0;
+		result = random.nextInt(10) + 1;
+		return result;
+	}
+	
+	public int randomBetween11and20() {
+		int result = 0;
+		result = random.nextInt(10) + 11;
+		return result;
+	}
+	
+	public int randomBetween21and30() {
+		int result = 0;
+		result = random.nextInt(10) + 21;
+		return result;
+	}
+	
+	public int randomBetween31and40() {
+		int result = 0;
+		result = random.nextInt(10) + 31;
+		return result;
+	}
+	
+	public int randomBetween41and50() {
+		int result = 0;
+		result = random.nextInt(10) + 41;
+		return result;
 	}
 
-	private void randomBetween1and10() {
-		System.out.println();
-	}
-
-	private void randomBetween11and20() {
-		
-	}
-
-	private void randomBetween21and30() {
-		
-	}
-
-	private void randomBetween31and40() {
-		
-	}
-
-	private void randomBetween41and50() {
-		
-	}
 
 }
